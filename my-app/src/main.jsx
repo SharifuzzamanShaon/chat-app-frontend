@@ -6,7 +6,7 @@ import { ChakraProvider } from '@chakra-ui/react'
 import { BrowserRouter } from 'react-router-dom'
 import { ChatProvider } from './context/ChatProvider.jsx'
 import axios from 'axios'
-axios.defaults.baseURL = "http://localhost:5000/"
+axios.defaults.baseURL = "https://chat-app-backend-lzxp.onrender.com"
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ChakraProvider>
